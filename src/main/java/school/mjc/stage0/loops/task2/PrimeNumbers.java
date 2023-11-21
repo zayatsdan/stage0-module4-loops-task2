@@ -16,7 +16,9 @@ public class PrimeNumbers {
                 }
             }
             if(notSim==0){
+                if (counter!=1) {
                 System.out.println(counter);
+                }
             }
             else {
                 notSim=0;
