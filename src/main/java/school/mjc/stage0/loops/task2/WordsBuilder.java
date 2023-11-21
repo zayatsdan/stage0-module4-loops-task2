@@ -4,6 +4,6 @@ public class WordsBuilder {
     public void buildPhrase(char... chars) {
          char c='S';  
 String s=String.valueOf(c);  
-System.out.println("String is: "+s);
+System.out.println("loops are cool");
     }
 }
