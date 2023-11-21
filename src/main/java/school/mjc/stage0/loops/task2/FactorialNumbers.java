@@ -4,6 +4,7 @@ public class FactorialNumbers {
     public void printFactorialRow(int printToInclusive) {
          int counter=1;
         int lastFact=1;
+        System.out.println(counter);
         while (counter<=printToInclusive){
             System.out.println(counter*lastFact);
             lastFact=counter*lastFact;
